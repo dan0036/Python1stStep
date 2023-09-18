@@ -22,7 +22,7 @@ list_b.append(list_b[1])
 index_bush = 0
 max_berries = sum(list_b[0:3])
 for i in range(2, len(list_b)-2):
-    if sum(list_b[i-1:i+1]) > max_berries:
+    if sum(list_b[i-1:i+2]) > max_berries:
         max_berries = sum(list_b[i-1:i+2])
         index_bush = i -1
 print(f'Max berries are {max_berries}, can be gathered by the bush with index: {index_bush}')
