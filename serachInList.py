@@ -15,7 +15,7 @@ else:
                 print(f'The closest to the searched element found is {searched_element - i}.')
                 break
         elif searched_element + i in list_1:
-                print(f'The closest to the searched element found is {searched_element + i}.')
+                print(f'The closest to the searched element found  is {searched_element + i}.')
                 break
 
 
